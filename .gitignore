@@ -1,0 +1,35 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# Archivos temporales de notebooks
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datos (si son muy pesados, mantener solo los procesados o ejemplos)
+data/raw/
+data/interim/
+data/external/
+
+# Archivos de logs
+*.log
+
+# Configuración local
+*.sqlite
+*.db
