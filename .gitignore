@@ -1,35 +1,18 @@
-# Archivos de Python
+# Entorno virtual
+venv_churn/
+.venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Archivos grandes o datasets generados
+data/processed/*
+!data/processed/datos_telecomx.csv   # <-- la excepción
+data/raw/*
 *.pkl
-*.joblib
-
-# Entornos virtuales
-.env
-.venv
-env/
-venv/
-ENV/
-.ipynb_checkpoints/
-
-# Archivos temporales de notebooks
-*.ipynb_checkpoints
-*.nbconvert.ipynb
+*.so
+*.log
 
 # Archivos de sistema
 .DS_Store
-Thumbs.db
-
-# Datos (si son muy pesados, mantener solo los procesados o ejemplos)
-data/raw/
-data/interim/
-data/external/
-
-# Archivos de logs
-*.log
-
-# Configuración local
-*.sqlite
-*.db
